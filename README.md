@@ -9,8 +9,8 @@ Bus Match는 실시간으로 버스 도착 정보를 제공하는 안드로이�
 최소 지원 API 레벨: 31
 타겟 SDK 버전: 33
 
-#### flask, RDS(MySQL) 사용 (localhost)
-도전하고 싶은 마음에 kotlin으로 개발했습니다. 그리고 로그인 기능을 위해 firebase를 활용했습니다. 원래는 firestore를 사용하여 버스 id(routeId) 정보를 넣을려고 했습니다. firebase에 데이터를 넣을 때 보통 node.js를 활용합니다. Node.js와 firebase 모두 한 번도 사용해보지 않아서 flask와 RDS를 활용했습니다.
+#### firebase, flask, RDS(MySQL) 사용 (localhost)
+도전하고 싶은 마음에 kotlin으로 개발했습니다. 그리고 로그인 기능을 위해 firebase를 활용했습니다. 원래는 firestore를 사용하여 버스 id(routeId) 정보를 넣을려고 했습니다. firestore에 데이터를 넣을 때 보통 node.js를 활용합니다. Node.js와 firebase 모두 한 번도 사용해보지 않아서 flask와 RDS를 활용했습니다.
 
 ### 활용 데이터
 [버스 도착 정보 조회 서비스](https://www.data.go.kr/data/15000314/openapi.do)
